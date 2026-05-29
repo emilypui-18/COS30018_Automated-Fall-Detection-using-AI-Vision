@@ -1,0 +1,15 @@
+# Dataset images (too large for GitHub)
+dataset/raw/
+dataset/enhanced/
+
+# YOLO model weights
+*.pt
+*.pth
+
+# Auto-generated files
+*.csv
+snapshot_*.png
+detection_snap_*.png
+__pycache__/
+*.pyc
+.DS_Store

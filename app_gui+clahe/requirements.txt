@@ -1,0 +1,7 @@
+opencv-python
+numpy
+ultralytics
+
+# Install with the correct Python on Windows:
+#   py -3 -m pip install opencv-python numpy ultralytics
+
