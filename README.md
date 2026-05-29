@@ -65,37 +65,3 @@ python app_gui.py
 Ts. Dr. Lee Sue Han
 
 ## Code Structure
-
-emily@Emilys-MacBook-Pro IS_FallDetectionSystem % tree
-.
-├── README.md
-├── app_gui+clahe
-│   ├── __pycache__
-│   │   ├── low_light_detector.cpython-313.pyc
-│   │   └── night_vision.cpython-313.pyc
-│   ├── app_gui.py
-│   ├── best.pt
-│   ├── low_light_detector.py
-│   ├── night_vision.py
-│   ├── requirements.txt
-│   └── run_enhance.py
-├── models
-│   ├── TwoStepApproach.ipynb
-│   ├── best.pt copy
-│   ├── best_frcnn_model.pth
-│   ├── faster_rcnn.ipynb
-│   ├── resnet_fall_classifier.pth
-│   └── yolov8.ipynb
-└── screenshots
-    ├── clahe.png
-    ├── falling_gui_dark.jpeg
-    ├── falling_gui_light.jpeg
-    ├── lightenhancements.png
-    ├── sitting_gui_dark.jpeg
-    ├── sitting_gui_light.jpeg
-    ├── snapshot_001.png
-    ├── walking_gui_dark.jpeg
-    └── walking_gui_light.jpeg
-
-5 directories, 24 files
-emily@Emilys-MacBook-Pro IS_FallDetectionSystem % 
