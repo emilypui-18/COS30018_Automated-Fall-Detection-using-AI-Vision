@@ -63,5 +63,3 @@ python app_gui.py
 ## Supervisor
 
 Ts. Dr. Lee Sue Han
-
-## Code Structure
