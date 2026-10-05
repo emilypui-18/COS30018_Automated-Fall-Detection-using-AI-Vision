@@ -1,0 +1,28 @@
+{
+  "name": "asset-intelligence-digital-twin",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "node --watch server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "preview": "vite preview",
+    "convert:model": "node scripts/convert-model.mjs"
+  },
+  "dependencies": {
+    "@xeokit/xeokit-sdk": "latest",
+    "@xeokit/xeokit-convert": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "web-ifc": "latest"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vite": "latest"
+  }
+}
